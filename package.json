@@ -1,0 +1,17 @@
+{
+  "name": "ymd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/index.js"
+  },
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "daylight": "^0.2.3"
+  },
+  "devDependencies": {
+    "tap": "^1.3.1"
+  }
+}
