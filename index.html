@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>year-month-day</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <meta name="description" content="" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <div class="container">
+  <h1 id="year-month-day">Year-Month-Day</h1>
+<p>Simple function that returns an object with props of year, month and day</p>
+<h2 id="usage">Usage</h2>
+<pre><code class="js language-js">const ymd = require('year-month-day')
+const day = new Date('01/01/2015')
+const result = ymd(day)
+console.log(result)
+// {
+//  year: 2015,
+//  month:  1,
+//  day: 1
+// }</code></pre>
+  </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64038939-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64038939-2');
+</script>
+
+</body>
