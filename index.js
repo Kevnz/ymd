@@ -1,4 +1,4 @@
-const daylight = require('daylight')
+const daylight = require('@kev_nz/daylight')
 
 /**
   @typedef YearMonthDay

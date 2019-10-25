@@ -17,12 +17,12 @@
   "author": "Kevin Isom <kevin.isom@gmail.com>",
   "license": "Unlicense",
   "dependencies": {
-    "daylight": "^0.2.3"
+    "@kev_nz/daylight": "^1.0.0"
   },
   "devDependencies": {
-    "@kev_nz/eslint-config": "^3.2.0",
-    "@kev_nz/publisher": "^1.0.1",
-    "eslint": "^5.14.1",
-    "tap": "^12.5.3"
+    "@kev_nz/eslint-config": "^5.0.0",
+    "@kev_nz/publisher": "^4.0.1",
+    "eslint": "^6.5.1",
+    "tap": "^14.8.2"
   }
 }
